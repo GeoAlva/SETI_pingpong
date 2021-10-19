@@ -231,6 +231,7 @@ int main(int argc, char *argv[])
     /*** Check if the answer is OK, and fail if it is not ***/
 /*** TO BE DONE START ***/
 
+if(answer[0] != 'O' || answer[1] != 'K') fail("Richiesta rifiutata dal pong server");
 
 /*** TO BE DONE END ***/
 
