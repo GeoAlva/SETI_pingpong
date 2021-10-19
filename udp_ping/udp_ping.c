@@ -182,13 +182,17 @@ int main(int argc, char *argv[])
     /*** Specify TCP socket options ***/
 	memset(&gai_hints, 0, sizeof gai_hints);
 /*** TO BE DONE START ***/
-
+	gai_hints.ai_family = AF_INET;
+	gai_hints.ai_socktype = SOCK_STREAM;	
+	gai_hints.ai_flags = AI_PASSIVE;
 
 /*** TO BE DONE END ***/
 
     /*** call getaddrinfo() in order to get Pong Server address in binary form ***/
 /*** TO BE DONE START ***/
 
+	gai_rv= getaddrinfo(argv[1], argv[2], &gai_hints, &server_addrinfo);
+	if(gai_rv != 0) fail("Errore durante getaddrinfo");
 
 /*** TO BE DONE END ***/
 
@@ -199,6 +203,10 @@ int main(int argc, char *argv[])
     /*** create a new TCP socket and connect it with the server ***/
 /*** TO BE DONE START ***/
 
+	tcp_socket = socket(server_addrinfo->ai_family, server_addrinfo->ai_socktype, server_addrinfo->ai_protocol);
+	if(tcp_socket < 0) fail("ERRORE DURANTE CREAZIONE SOCKET TCP");
+
+	if(connect(tcp_socket, server_addrinfo->ai_addr, server_addrinfo->ai_addrlen) != 0) fail("ERRORE DURANTE CONNECT");
 
 /*** TO BE DONE END ***/
 
@@ -207,8 +215,9 @@ int main(int argc, char *argv[])
 	sprintf(request, "UDP %d %d\n", msg_size, norep);
 
     /*** Write the request on the TCP socket ***/
-/** TO BE DONE START ***/
+/** TO BE DONE START ***/	
 
+	if(write(tcp_socket, request, strlen(request)) < 0) fail("ERRORE DURANTE INVIO PRIMA RICHIESTA");
 
 /*** TO BE DONE END ***/
 
