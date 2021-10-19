@@ -113,6 +113,10 @@ int prepare_udp_socket(char *pong_addr, char *pong_port)
 	memset(&gai_hints, 0, sizeof gai_hints);
 /*** TO BE DONE START ***/
 
+		gai_hints.ai_family = AF_INET;
+		gai_hints.ai_socktype = SOCK_DGRAM;
+		gai_hints.protocol = 0;
+
 
 /*** TO BE DONE END ***/
 
@@ -183,8 +187,8 @@ int main(int argc, char *argv[])
 	memset(&gai_hints, 0, sizeof gai_hints);
 /*** TO BE DONE START ***/
 	gai_hints.ai_family = AF_INET;
-	gai_hints.ai_socktype = SOCK_STREAM;	
-	gai_hints.ai_flags = AI_PASSIVE;
+	gai_hints.ai_socktype = SOCK_STREAM;
+	gai_hints.protocol = 0;
 
 /*** TO BE DONE END ***/
 
