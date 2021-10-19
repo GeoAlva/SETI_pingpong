@@ -115,7 +115,7 @@ int prepare_udp_socket(char *pong_addr, char *pong_port)
 
 		gai_hints.ai_family = AF_INET;
 		gai_hints.ai_socktype = SOCK_DGRAM;
-		gai_hints.protocol = 0;
+		gai_hints.ai_protocol = 0;
 
 
 /*** TO BE DONE END ***/
@@ -125,7 +125,7 @@ int prepare_udp_socket(char *pong_addr, char *pong_port)
 
     /*** change ping_socket behavior to NONBLOCKing using fcntl() ***/
 /*** TO BE DONE START ***/
-	if(fcntl(ping_socket,F_SETFD, O_NONBLOCK) = -1) fail_errno("Error: not able to call fcntl");
+	if(fcntl(ping_socket,F_SETFD, O_NONBLOCK) == -1) fail_errno("Error: not able to call fcntl");
 
 
 /*** TO BE DONE END ***/
@@ -134,7 +134,7 @@ int prepare_udp_socket(char *pong_addr, char *pong_port)
 /*** TO BE DONE START ***/
 
 	gai_rv = getaddrinfo(pong_addr, pong_port, &gai_hints, &pong_addrinfo);
-	if(gai_rv != 0) fail_errno(gai_strerro(gai_rv));
+	if(gai_rv != 0) fail_errno(gai_strerror(gai_rv));
 
 /*** TO BE DONE END ***/
 
@@ -193,7 +193,7 @@ int main(int argc, char *argv[])
 /*** TO BE DONE START ***/
 	gai_hints.ai_family = AF_INET;
 	gai_hints.ai_socktype = SOCK_STREAM;
-	gai_hints.protocol = 0;
+	gai_hints.ai_protocol = 0;
 
 /*** TO BE DONE END ***/
 
@@ -201,7 +201,7 @@ int main(int argc, char *argv[])
 /*** TO BE DONE START ***/
 
 	gai_rv= getaddrinfo(argv[1], argv[2], &gai_hints, &server_addrinfo);
-	if(gai_rv != 0) fail_errno(gai_strerro(gai_rv));
+	if(gai_rv != 0) fail_errno(gai_strerror(gai_rv));
 
 /*** TO BE DONE END ***/
 
@@ -212,10 +212,10 @@ int main(int argc, char *argv[])
     /*** create a new TCP socket and connect it with the server ***/
 /*** TO BE DONE START ***/
 
-	tcp_socket = socket(server_addrinfo->ai_family, server_addrinfo->ai_socktype, server_addrinfo->ai_protocol);
-	if(tcp_socket < 0) fail("ERRORE DURANTE CREAZIONE SOCKET TCP");
+	ask_socket = socket(server_addrinfo->ai_family, server_addrinfo->ai_socktype, server_addrinfo->ai_protocol);
+	if(ask_socket < 0) fail("ERRORE DURANTE CREAZIONE SOCKET TCP");
 
-	if(connect(tcp_socket, server_addrinfo->ai_addr, server_addrinfo->ai_addrlen) != 0) fail("ERRORE DURANTE CONNECT");
+	if(connect(ask_socket, server_addrinfo->ai_addr, server_addrinfo->ai_addrlen) != 0) fail("ERRORE DURANTE CONNECT");
 
 /*** TO BE DONE END ***/
 
@@ -226,7 +226,7 @@ int main(int argc, char *argv[])
     /*** Write the request on the TCP socket ***/
 /** TO BE DONE START ***/	
 
-	if(write(tcp_socket, request, strlen(request)) < 0) fail("ERRORE DURANTE INVIO PRIMA RICHIESTA");
+	if(write(ask_socket, request, strlen(request)) < 0) fail("ERRORE DURANTE INVIO PRIMA RICHIESTA");
 
 /*** TO BE DONE END ***/
 
