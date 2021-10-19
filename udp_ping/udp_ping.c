@@ -125,13 +125,16 @@ int prepare_udp_socket(char *pong_addr, char *pong_port)
 
     /*** change ping_socket behavior to NONBLOCKing using fcntl() ***/
 /*** TO BE DONE START ***/
-	
+	if(fcntl(ping_socket,F_SETFD, O_NONBLOCK) = -1) fail_errno("Error: not able to call fcntl");
+
 
 /*** TO BE DONE END ***/
 
     /*** call getaddrinfo() in order to get Pong Server address in binary form ***/
 /*** TO BE DONE START ***/
 
+	gai_rv = getaddrinfo(pong_addr, pong_port, &gai_hints, &pong_addrinfo);
+	if(gai_rv != 0) fail_errno(gai_strerro(gai_rv));
 
 /*** TO BE DONE END ***/
 
@@ -150,6 +153,8 @@ int prepare_udp_socket(char *pong_addr, char *pong_port)
     /*** connect the ping_socket UDP socket with the server ***/
 /*** TO BE DONE START ***/
 
+	if(connect(ping_socket, pong_addrinfo->ai_addr, pong_addrinfo->ai_addrlen) != 0) 
+		fail("Error: cannot connect to server");
 
 /*** TO BE DONE END ***/
 
@@ -196,7 +201,7 @@ int main(int argc, char *argv[])
 /*** TO BE DONE START ***/
 
 	gai_rv= getaddrinfo(argv[1], argv[2], &gai_hints, &server_addrinfo);
-	if(gai_rv != 0) fail("Errore durante getaddrinfo");
+	if(gai_rv != 0) fail_errno(gai_strerro(gai_rv));
 
 /*** TO BE DONE END ***/
 
