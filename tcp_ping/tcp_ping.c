@@ -51,7 +51,7 @@ double do_ping(size_t msg_size, int msg_no, char message[msg_size], int tcp_sock
 
     /*** Send the message through the socket (blocking)  ***/
 /*** TO BE DONE START ***/
-	printf("poggeropoli");
+	
 	sent_bytes=blocking_write_all(tcp_socket,message,msg_size);
 
 /*** TO BE DONE END ***/
@@ -108,7 +108,7 @@ int main(int argc, char **argv)
 /*** TO BE DONE START ***/
 		gai_hints.ai_family = AF_INET;
 		gai_hints.ai_socktype = SOCK_STREAM;
-		gai_hints.ai_flags = AI_PASSIVE;
+		gai_hints.ai_protocol = 0;
 
 /*** TO BE DONE END ***/
 
@@ -117,7 +117,7 @@ int main(int argc, char **argv)
 	gai_rv= getaddrinfo(argv[1], argv[2], &gai_hints, &server_addrinfo);
 	if(gai_rv != 0){
 		fail("ERRORE durante getaddrinfo\n");
-	}
+	}	
 /*** TO BE DONE END ***/
 
     /*** Print address of the Pong server before trying to connect ***/
@@ -158,9 +158,7 @@ int main(int argc, char **argv)
 
     /*** Check if the answer is OK, and fail if it is not ***/
 /*** TO BE DONE START ***/
-if(answer[0] != 'O' || answer[1] != 'K'){
-		fail("AL PONG SERVER GLI STAI SUL CAZZO");
-	}
+if(answer[0] != 'O' || answer[1] != 'K') fail("Richiesta rifiutata dal pong server");
 
 /*** TO BE DONE END ***/
 
