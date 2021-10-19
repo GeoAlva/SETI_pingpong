@@ -51,7 +51,7 @@ double do_ping(size_t msg_size, int msg_no, char message[msg_size], int tcp_sock
 
     /*** Send the message through the socket (blocking)  ***/
 /*** TO BE DONE START ***/
-	printf("poggeropoli");
+	
 	sent_bytes=blocking_write_all(tcp_socket,message,msg_size);
 
 /*** TO BE DONE END ***/
@@ -107,7 +107,7 @@ int main(int argc, char **argv)
 	memset(&gai_hints, 0, sizeof gai_hints);
 /*** TO BE DONE START ***/
 		gai_hints.ai_family = AF_INET;
-		gai_hints.ai_socktype = SOCK_STREAM;
+		gai_hints.ai_socktype = SOCK_DGRAM;
 		gai_hints.ai_flags = AI_PASSIVE;
 
 /*** TO BE DONE END ***/
@@ -117,7 +117,7 @@ int main(int argc, char **argv)
 	gai_rv= getaddrinfo(argv[1], argv[2], &gai_hints, &server_addrinfo);
 	if(gai_rv != 0){
 		fail("ERRORE durante getaddrinfo\n");
-	}
+	}	
 /*** TO BE DONE END ***/
 
     /*** Print address of the Pong server before trying to connect ***/
