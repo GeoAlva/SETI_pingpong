@@ -62,7 +62,11 @@ double do_ping(size_t msg_size, int msg_no, char message[msg_size], int ping_soc
 	/*** Receive answer through the socket (non blocking mode, with timeout) ***/
 /*** TO BE DONE START ***/
 
-	recv_bytes=
+	struct timeval recv_timeout;
+		recv_timeout.tv_sec = timeout/1000;
+		recv_timeout.tv_usec = 0;
+
+	setsockopt(ping_socket, SOL_SOCKET, SO_RCVTIMEO, &recv_timeout, sizeof (recv_timeout));
 
 /*** TO BE DONE END ***/
 
