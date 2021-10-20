@@ -48,7 +48,6 @@ double do_ping(size_t msg_size, int msg_no, char message[msg_size], int ping_soc
 		debug(" ... sending message %d\n", msg_no);
 	/*** Store the current time in send_time ***/
 /*** TO BE DONE START ***/
-
 	clock_gettime(CLOCK_TYPE, &send_time);
 
 /*** TO BE DONE END ***/
@@ -59,7 +58,6 @@ double do_ping(size_t msg_size, int msg_no, char message[msg_size], int ping_soc
 	sent_bytes=nonblocking_write_all(ping_socket,message,msg_size);
 
 /*** TO BE DONE END ***/
-
 	/*** Receive answer through the socket (non blocking mode, with timeout) ***/
 /*** TO BE DONE START ***/
 
@@ -68,6 +66,8 @@ double do_ping(size_t msg_size, int msg_no, char message[msg_size], int ping_soc
 		recv_timeout.tv_usec = 0;
 
 	setsockopt(ping_socket, SOL_SOCKET, SO_RCVTIMEO, &recv_timeout, sizeof (recv_timeout));
+
+	recv_bytes=read_all(ping_socket,answer_buffer,sizeof(answer_buffer));
 
 /*** TO BE DONE END ***/
 
