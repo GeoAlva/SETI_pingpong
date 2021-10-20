@@ -103,6 +103,19 @@ void print_statistics(FILE * outf, const char *name, int repeats,
 
 /*** TO BE DONE START ***/
 
+	for(int i = 0; i< N_HISTOGRAM_ITEMS; i++){
+		printf("%d ", histogram[i]);
+	}
+	
+	printf("\n\n\n\n");
+
+	for(int k=0; k < N_HISTOGRAM_ITEMS; ++k) {
+    		printf("%f:", h_min+k*h_incr);
+    		rep('*', histogram[k]);
+    		printf("\n");
+  	}
+	
+
 
 /*** TO BE DONE END ***/
 
