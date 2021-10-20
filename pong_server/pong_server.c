@@ -314,6 +314,17 @@ int main(int argc, char **argv)
          *** create STREAM socket, bind() and listen()                   ***/
 /*** TO BE DONE START ***/
 
+	gai_rv=getaddrinfo(NULL,argv[1],&gai_hints,&server_addrinfo);
+	if(gai_rv != 0) fail_errno(gai_strerror(gai_rv));
+	
+	server_socket = socket(server_addrinfo->ai_family,server_addrinfo->ai_socktype,server_addrinfo->ai_protocol);
+	if(server_socket < 0) fail("Cannot create TCP socket");
+	
+	if(bind(server_socket,server_addrinfo->ai_addr,server_addrinfo->ai_addrlen)!=0)
+		fail_errno("Errore durante la bind");
+	
+	if(listen(server_socket,LISTENBACKLOG)!=0)
+		fail_errno("Errore durante la listen");
 
 /*** TO BE DONE END ***/
 
