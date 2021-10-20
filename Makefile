@@ -42,7 +42,7 @@ $(BIN_DIR)/pong_server.o: pingpong_lib/pingpong.h pong_server/pong_server.c | $(
 $(UDP_PING): $(UDP_PING_OBJS) $(PINGPONG_LIB) | $(BIN_DIR)
 	$(CC) -o $@ $(UDP_PING_OBJS) $(LDFLAGS)
 $(BIN_DIR)/udp_ping.o: pingpong_lib/pingpong.h udp_ping/udp_ping.c | $(BIN_DIR)
-	$(CC) $(CFLAGS) -c -o $@ udp_ping/udp_ping.c
+	$(CC) $(CFLAGS) -Wall -c -o $@ udp_ping/udp_ping.c
 
 # TCP Ping client
 $(TCP_PING): $(TCP_PING_OBJS) $(PINGPONG_LIB) | $(BIN_DIR)
