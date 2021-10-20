@@ -55,7 +55,7 @@ double do_ping(size_t msg_size, int msg_no, char message[msg_size], int ping_soc
 	/*** Send the message through the socket (non blocking mode) ***/
 /*** TO BE DONE START ***/
 
-	sent_bytes=nonblocking_write_all(tcp_socket,message,msg_size);
+	sent_bytes=nonblocking_write_all(ping_socket,message,msg_size);
 
 /*** TO BE DONE END ***/
 
