@@ -21,6 +21,7 @@
 
 #include "pingpong.h"
 
+// oh wow questo è un commento perchè gotta testare cose
 
 /*
 * This function sends and waits for a reply on a socket.
