@@ -51,6 +51,7 @@ void tcp_pong(int message_no, size_t message_size, FILE *in_stream, int out_sock
                 /*** get time-stamp time2 from the clock ***/
 /*** TO BE DONE START ***/
 
+	clock_gettime(CLOCK_TYPE,&time2);
 
 /*** TO BE DONE END ***/
 
@@ -64,6 +65,7 @@ void tcp_pong(int message_no, size_t message_size, FILE *in_stream, int out_sock
                 /*** get time-stamp time3 from the clock ***/
 /*** TO BE DONE START ***/
 
+	clock_gettime(CLOCK_TYPE,&time3);
 
 /*** TO BE DONE END ***/
 
@@ -93,6 +95,7 @@ void udp_pong(int dgrams_no, int dgram_sz, int pong_socket)
                 /*** get time-stamp time2 from the clock ***/
 /*** TO BE DONE START ***/
 
+	clock_gettime(CLOCK_TYPE, &time2);
 
 /*** TO BE DONE END ***/
 
@@ -128,6 +131,7 @@ void udp_pong(int dgrams_no, int dgram_sz, int pong_socket)
                 /*** get time-stamp time3 from the clock ***/
 /*** TO BE DONE START ***/
 
+		clock_gettime(CLOCK_TYPE,&time3);
 
 /*** TO BE DONE END ***/
 
@@ -163,6 +167,19 @@ int open_udp_socket(int *pong_port)
 
                 /*** create DGRAM socket, call getaddrinfo() to set port number, and bind() ***/
 /*** TO BE DONE START ***/
+
+	gai_rv=getaddrinfo(NULL,port_number_as_str,&gai_hints,&pong_addrinfo);
+	if(gai_rv != 0) fail_errno(gai_strerror(gai_rv));
+	
+	udp_socket = socket(pong_addrinfo->ai_family,pong_addrinfo->ai_socktype,pong_addrinfo->ai_protocol);
+	if(udp_socket < 0) fail("Cannot create TCP socket");
+	
+	bind_rv=bind(udp_socket,pong_addrinfo->ai_addr,pong_addrinfo->ai_addrlen);
+	if(bind_rv!=0) fail_errno("Errore durante la bind");
+		if(bind_rv==0){
+			*pong_port = port_number;
+			return udp_socket;
+		}
 
 
 /*** TO BE DONE END ***/
@@ -289,6 +306,12 @@ void server_loop(int server_socket) {
      establised fork() and have the child process call serve_client() ***/
 /*** TO BE DONE START ***/
 
+		if(request_socket<0)
+			perror("Pong server could not accept connection");
+
+		pid=fork();
+		if(pid<0) fail_errno("Server could not fork");
+		if(pid == 0) serve_client(request_socket,&client_addr);
 
 /*** TO BE DONE END ***/
 
