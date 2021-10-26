@@ -175,7 +175,7 @@ int open_udp_socket(int *pong_port)
 	if(udp_socket < 0) fail("Cannot create TCP socket");
 	
 	bind_rv=bind(udp_socket,pong_addrinfo->ai_addr,pong_addrinfo->ai_addrlen);
-	if(bind_rv!=0) fail_errno("Errore durante la bind");
+	if(bind_rv!=0) fail_errno("Error during bind");
 		if(bind_rv==0){
 			*pong_port = port_number;
 			return udp_socket;
@@ -306,8 +306,11 @@ void server_loop(int server_socket) {
      establised fork() and have the child process call serve_client() ***/
 /*** TO BE DONE START ***/
 
-		if(request_socket<0)
-			perror("Pong server could not accept connection");
+		if(request_socket<0){
+			if(errno == EINTR) continue;
+			close(request_socket);
+			fail_errno("Server could not accept connection");
+			}
 
 		pid=fork();
 		if(pid<0) fail_errno("Server could not fork");

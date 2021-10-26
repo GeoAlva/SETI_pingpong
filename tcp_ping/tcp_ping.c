@@ -115,9 +115,7 @@ int main(int argc, char **argv)
     /*** call getaddrinfo() in order to get Pong Server address in binary form ***/
 /*** TO BE DONE START ***/
 	gai_rv= getaddrinfo(argv[1], argv[2], &gai_hints, &server_addrinfo);
-	if(gai_rv != 0){
-		fail("ERRORE durante getaddrinfo\n");
-	}	
+	if(gai_rv != 0) fail_errno("ERRORE durante getaddrinfo\n");
 /*** TO BE DONE END ***/
 
     /*** Print address of the Pong server before trying to connect ***/
@@ -127,9 +125,9 @@ int main(int argc, char **argv)
     /*** create a new TCP socket and connect it with the server ***/
 /*** TO BE DONE START ***/
 	tcp_socket = socket(server_addrinfo->ai_family, server_addrinfo->ai_socktype, server_addrinfo->ai_protocol);
-	if(tcp_socket < 0) fail("ERRORE DURANTE CREAZIONE SOCKET TCP");
+	if(tcp_socket < 0) fail_errno("ERRORE DURANTE CREAZIONE SOCKET TCP");
 
-	if(connect(tcp_socket, server_addrinfo->ai_addr, server_addrinfo->ai_addrlen) != 0) fail("ERRORE DURANTE CONNECT");
+	if(connect(tcp_socket, server_addrinfo->ai_addr, server_addrinfo->ai_addrlen) != 0) fail_errno("ERRORE DURANTE CONNECT");
 
 
 /*** TO BE DONE END ***/

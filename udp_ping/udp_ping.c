@@ -223,9 +223,9 @@ int main(int argc, char *argv[])
 /*** TO BE DONE START ***/
 
 	ask_socket = socket(server_addrinfo->ai_family, server_addrinfo->ai_socktype, server_addrinfo->ai_protocol);
-	if(ask_socket < 0) fail("ERRORE DURANTE CREAZIONE SOCKET TCP");
+	if(ask_socket < 0) fail_errno("Cannot create a new socket");
 
-	if(connect(ask_socket, server_addrinfo->ai_addr, server_addrinfo->ai_addrlen) != 0) fail("ERRORE DURANTE CONNECT");
+	if(connect(ask_socket, server_addrinfo->ai_addr, server_addrinfo->ai_addrlen) != 0) fail_errno("Connect error");
 
 /*** TO BE DONE END ***/
 
@@ -236,7 +236,7 @@ int main(int argc, char *argv[])
     /*** Write the request on the TCP socket ***/
 /** TO BE DONE START ***/	
 
-	if(write(ask_socket, request, strlen(request)) < 0) fail("ERRORE DURANTE INVIO PRIMA RICHIESTA");
+	if(write(ask_socket, request, strlen(request)) < 0) fail_errno("Write function error");
 
 /*** TO BE DONE END ***/
 
