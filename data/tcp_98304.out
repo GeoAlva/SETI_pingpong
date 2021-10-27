@@ -1,0 +1,1014 @@
+TCP Ping trying to connect to server 192.168.1.110 (192.168.1.110) on port 1491
+ ... connected to Pong server: asking for 501 repetitions of 98304 bytes TCP messages
+ ... Pong server agreed :-)
+tcp_ping received 98304 bytes back
+Round trip time was 17.7753 milliseconds in repetition 1
+tcp_ping received 98304 bytes back
+Round trip time was 17.4021 milliseconds in repetition 2
+tcp_ping received 98304 bytes back
+Round trip time was 17.5319 milliseconds in repetition 3
+tcp_ping received 98304 bytes back
+Round trip time was 17.7263 milliseconds in repetition 4
+tcp_ping received 98304 bytes back
+Round trip time was 17.4966 milliseconds in repetition 5
+tcp_ping received 98304 bytes back
+Round trip time was 17.6217 milliseconds in repetition 6
+tcp_ping received 98304 bytes back
+Round trip time was 17.6829 milliseconds in repetition 7
+tcp_ping received 98304 bytes back
+Round trip time was 17.6261 milliseconds in repetition 8
+tcp_ping received 98304 bytes back
+Round trip time was 17.399 milliseconds in repetition 9
+tcp_ping received 98304 bytes back
+Round trip time was 17.6068 milliseconds in repetition 10
+tcp_ping received 98304 bytes back
+Round trip time was 17.6184 milliseconds in repetition 11
+tcp_ping received 98304 bytes back
+Round trip time was 17.6763 milliseconds in repetition 12
+tcp_ping received 98304 bytes back
+Round trip time was 17.3942 milliseconds in repetition 13
+tcp_ping received 98304 bytes back
+Round trip time was 17.5075 milliseconds in repetition 14
+tcp_ping received 98304 bytes back
+Round trip time was 17.394 milliseconds in repetition 15
+tcp_ping received 98304 bytes back
+Round trip time was 17.4862 milliseconds in repetition 16
+tcp_ping received 98304 bytes back
+Round trip time was 17.4153 milliseconds in repetition 17
+tcp_ping received 98304 bytes back
+Round trip time was 17.3884 milliseconds in repetition 18
+tcp_ping received 98304 bytes back
+Round trip time was 17.5411 milliseconds in repetition 19
+tcp_ping received 98304 bytes back
+Round trip time was 17.5435 milliseconds in repetition 20
+tcp_ping received 98304 bytes back
+Round trip time was 17.4417 milliseconds in repetition 21
+tcp_ping received 98304 bytes back
+Round trip time was 17.5971 milliseconds in repetition 22
+tcp_ping received 98304 bytes back
+Round trip time was 18.9938 milliseconds in repetition 23
+tcp_ping received 98304 bytes back
+Round trip time was 17.6585 milliseconds in repetition 24
+tcp_ping received 98304 bytes back
+Round trip time was 17.7102 milliseconds in repetition 25
+tcp_ping received 98304 bytes back
+Round trip time was 17.5892 milliseconds in repetition 26
+tcp_ping received 98304 bytes back
+Round trip time was 17.7796 milliseconds in repetition 27
+tcp_ping received 98304 bytes back
+Round trip time was 17.568 milliseconds in repetition 28
+tcp_ping received 98304 bytes back
+Round trip time was 17.6401 milliseconds in repetition 29
+tcp_ping received 98304 bytes back
+Round trip time was 17.4524 milliseconds in repetition 30
+tcp_ping received 98304 bytes back
+Round trip time was 17.5864 milliseconds in repetition 31
+tcp_ping received 98304 bytes back
+Round trip time was 17.4417 milliseconds in repetition 32
+tcp_ping received 98304 bytes back
+Round trip time was 20.7021 milliseconds in repetition 33
+tcp_ping received 98304 bytes back
+Round trip time was 17.4364 milliseconds in repetition 34
+tcp_ping received 98304 bytes back
+Round trip time was 18.1175 milliseconds in repetition 35
+tcp_ping received 98304 bytes back
+Round trip time was 17.5526 milliseconds in repetition 36
+tcp_ping received 98304 bytes back
+Round trip time was 17.5658 milliseconds in repetition 37
+tcp_ping received 98304 bytes back
+Round trip time was 17.4837 milliseconds in repetition 38
+tcp_ping received 98304 bytes back
+Round trip time was 17.545 milliseconds in repetition 39
+tcp_ping received 98304 bytes back
+Round trip time was 17.7174 milliseconds in repetition 40
+tcp_ping received 98304 bytes back
+Round trip time was 17.5882 milliseconds in repetition 41
+tcp_ping received 98304 bytes back
+Round trip time was 17.5513 milliseconds in repetition 42
+tcp_ping received 98304 bytes back
+Round trip time was 17.601 milliseconds in repetition 43
+tcp_ping received 98304 bytes back
+Round trip time was 17.609 milliseconds in repetition 44
+tcp_ping received 98304 bytes back
+Round trip time was 17.6147 milliseconds in repetition 45
+tcp_ping received 98304 bytes back
+Round trip time was 17.7063 milliseconds in repetition 46
+tcp_ping received 98304 bytes back
+Round trip time was 17.6379 milliseconds in repetition 47
+tcp_ping received 98304 bytes back
+Round trip time was 17.5793 milliseconds in repetition 48
+tcp_ping received 98304 bytes back
+Round trip time was 17.6119 milliseconds in repetition 49
+tcp_ping received 98304 bytes back
+Round trip time was 17.79 milliseconds in repetition 50
+tcp_ping received 98304 bytes back
+Round trip time was 17.5084 milliseconds in repetition 51
+tcp_ping received 98304 bytes back
+Round trip time was 17.545 milliseconds in repetition 52
+tcp_ping received 98304 bytes back
+Round trip time was 17.5031 milliseconds in repetition 53
+tcp_ping received 98304 bytes back
+Round trip time was 17.7202 milliseconds in repetition 54
+tcp_ping received 98304 bytes back
+Round trip time was 17.7299 milliseconds in repetition 55
+tcp_ping received 98304 bytes back
+Round trip time was 17.5473 milliseconds in repetition 56
+tcp_ping received 98304 bytes back
+Round trip time was 17.5338 milliseconds in repetition 57
+tcp_ping received 98304 bytes back
+Round trip time was 17.3888 milliseconds in repetition 58
+tcp_ping received 98304 bytes back
+Round trip time was 17.4774 milliseconds in repetition 59
+tcp_ping received 98304 bytes back
+Round trip time was 17.5761 milliseconds in repetition 60
+tcp_ping received 98304 bytes back
+Round trip time was 17.3236 milliseconds in repetition 61
+tcp_ping received 98304 bytes back
+Round trip time was 17.4395 milliseconds in repetition 62
+tcp_ping received 98304 bytes back
+Round trip time was 17.3628 milliseconds in repetition 63
+tcp_ping received 98304 bytes back
+Round trip time was 17.4458 milliseconds in repetition 64
+tcp_ping received 98304 bytes back
+Round trip time was 17.3744 milliseconds in repetition 65
+tcp_ping received 98304 bytes back
+Round trip time was 17.4866 milliseconds in repetition 66
+tcp_ping received 98304 bytes back
+Round trip time was 17.5064 milliseconds in repetition 67
+tcp_ping received 98304 bytes back
+Round trip time was 17.2427 milliseconds in repetition 68
+tcp_ping received 98304 bytes back
+Round trip time was 17.2865 milliseconds in repetition 69
+tcp_ping received 98304 bytes back
+Round trip time was 17.4925 milliseconds in repetition 70
+tcp_ping received 98304 bytes back
+Round trip time was 19.4471 milliseconds in repetition 71
+tcp_ping received 98304 bytes back
+Round trip time was 17.4623 milliseconds in repetition 72
+tcp_ping received 98304 bytes back
+Round trip time was 17.7116 milliseconds in repetition 73
+tcp_ping received 98304 bytes back
+Round trip time was 17.602 milliseconds in repetition 74
+tcp_ping received 98304 bytes back
+Round trip time was 17.5903 milliseconds in repetition 75
+tcp_ping received 98304 bytes back
+Round trip time was 17.5555 milliseconds in repetition 76
+tcp_ping received 98304 bytes back
+Round trip time was 17.5406 milliseconds in repetition 77
+tcp_ping received 98304 bytes back
+Round trip time was 17.3432 milliseconds in repetition 78
+tcp_ping received 98304 bytes back
+Round trip time was 17.3995 milliseconds in repetition 79
+tcp_ping received 98304 bytes back
+Round trip time was 17.6006 milliseconds in repetition 80
+tcp_ping received 98304 bytes back
+Round trip time was 17.5101 milliseconds in repetition 81
+tcp_ping received 98304 bytes back
+Round trip time was 17.5007 milliseconds in repetition 82
+tcp_ping received 98304 bytes back
+Round trip time was 17.4809 milliseconds in repetition 83
+tcp_ping received 98304 bytes back
+Round trip time was 17.4043 milliseconds in repetition 84
+tcp_ping received 98304 bytes back
+Round trip time was 17.495 milliseconds in repetition 85
+tcp_ping received 98304 bytes back
+Round trip time was 17.4622 milliseconds in repetition 86
+tcp_ping received 98304 bytes back
+Round trip time was 17.5351 milliseconds in repetition 87
+tcp_ping received 98304 bytes back
+Round trip time was 17.3771 milliseconds in repetition 88
+tcp_ping received 98304 bytes back
+Round trip time was 17.3786 milliseconds in repetition 89
+tcp_ping received 98304 bytes back
+Round trip time was 17.5421 milliseconds in repetition 90
+tcp_ping received 98304 bytes back
+Round trip time was 22.8155 milliseconds in repetition 91
+tcp_ping received 98304 bytes back
+Round trip time was 17.4627 milliseconds in repetition 92
+tcp_ping received 98304 bytes back
+Round trip time was 17.3299 milliseconds in repetition 93
+tcp_ping received 98304 bytes back
+Round trip time was 17.4585 milliseconds in repetition 94
+tcp_ping received 98304 bytes back
+Round trip time was 17.312 milliseconds in repetition 95
+tcp_ping received 98304 bytes back
+Round trip time was 17.5036 milliseconds in repetition 96
+tcp_ping received 98304 bytes back
+Round trip time was 17.5402 milliseconds in repetition 97
+tcp_ping received 98304 bytes back
+Round trip time was 17.509 milliseconds in repetition 98
+tcp_ping received 98304 bytes back
+Round trip time was 17.4259 milliseconds in repetition 99
+tcp_ping received 98304 bytes back
+Round trip time was 17.3626 milliseconds in repetition 100
+tcp_ping received 98304 bytes back
+Round trip time was 17.3621 milliseconds in repetition 101
+tcp_ping received 98304 bytes back
+Round trip time was 17.2581 milliseconds in repetition 102
+tcp_ping received 98304 bytes back
+Round trip time was 17.3093 milliseconds in repetition 103
+tcp_ping received 98304 bytes back
+Round trip time was 17.3248 milliseconds in repetition 104
+tcp_ping received 98304 bytes back
+Round trip time was 17.3591 milliseconds in repetition 105
+tcp_ping received 98304 bytes back
+Round trip time was 17.4987 milliseconds in repetition 106
+tcp_ping received 98304 bytes back
+Round trip time was 17.5166 milliseconds in repetition 107
+tcp_ping received 98304 bytes back
+Round trip time was 17.3952 milliseconds in repetition 108
+tcp_ping received 98304 bytes back
+Round trip time was 17.3108 milliseconds in repetition 109
+tcp_ping received 98304 bytes back
+Round trip time was 17.499 milliseconds in repetition 110
+tcp_ping received 98304 bytes back
+Round trip time was 17.42 milliseconds in repetition 111
+tcp_ping received 98304 bytes back
+Round trip time was 17.4543 milliseconds in repetition 112
+tcp_ping received 98304 bytes back
+Round trip time was 17.4581 milliseconds in repetition 113
+tcp_ping received 98304 bytes back
+Round trip time was 17.3068 milliseconds in repetition 114
+tcp_ping received 98304 bytes back
+Round trip time was 17.5847 milliseconds in repetition 115
+tcp_ping received 98304 bytes back
+Round trip time was 17.33 milliseconds in repetition 116
+tcp_ping received 98304 bytes back
+Round trip time was 17.483 milliseconds in repetition 117
+tcp_ping received 98304 bytes back
+Round trip time was 17.566 milliseconds in repetition 118
+tcp_ping received 98304 bytes back
+Round trip time was 17.5348 milliseconds in repetition 119
+tcp_ping received 98304 bytes back
+Round trip time was 17.2641 milliseconds in repetition 120
+tcp_ping received 98304 bytes back
+Round trip time was 17.5005 milliseconds in repetition 121
+tcp_ping received 98304 bytes back
+Round trip time was 17.5265 milliseconds in repetition 122
+tcp_ping received 98304 bytes back
+Round trip time was 17.4778 milliseconds in repetition 123
+tcp_ping received 98304 bytes back
+Round trip time was 17.4596 milliseconds in repetition 124
+tcp_ping received 98304 bytes back
+Round trip time was 17.4232 milliseconds in repetition 125
+tcp_ping received 98304 bytes back
+Round trip time was 17.633 milliseconds in repetition 126
+tcp_ping received 98304 bytes back
+Round trip time was 17.4762 milliseconds in repetition 127
+tcp_ping received 98304 bytes back
+Round trip time was 17.4175 milliseconds in repetition 128
+tcp_ping received 98304 bytes back
+Round trip time was 17.4803 milliseconds in repetition 129
+tcp_ping received 98304 bytes back
+Round trip time was 17.6425 milliseconds in repetition 130
+tcp_ping received 98304 bytes back
+Round trip time was 17.5316 milliseconds in repetition 131
+tcp_ping received 98304 bytes back
+Round trip time was 17.5125 milliseconds in repetition 132
+tcp_ping received 98304 bytes back
+Round trip time was 17.3908 milliseconds in repetition 133
+tcp_ping received 98304 bytes back
+Round trip time was 17.4503 milliseconds in repetition 134
+tcp_ping received 98304 bytes back
+Round trip time was 17.4715 milliseconds in repetition 135
+tcp_ping received 98304 bytes back
+Round trip time was 17.4116 milliseconds in repetition 136
+tcp_ping received 98304 bytes back
+Round trip time was 17.4443 milliseconds in repetition 137
+tcp_ping received 98304 bytes back
+Round trip time was 17.4729 milliseconds in repetition 138
+tcp_ping received 98304 bytes back
+Round trip time was 17.5909 milliseconds in repetition 139
+tcp_ping received 98304 bytes back
+Round trip time was 17.4054 milliseconds in repetition 140
+tcp_ping received 98304 bytes back
+Round trip time was 17.3547 milliseconds in repetition 141
+tcp_ping received 98304 bytes back
+Round trip time was 17.4976 milliseconds in repetition 142
+tcp_ping received 98304 bytes back
+Round trip time was 17.2573 milliseconds in repetition 143
+tcp_ping received 98304 bytes back
+Round trip time was 17.2838 milliseconds in repetition 144
+tcp_ping received 98304 bytes back
+Round trip time was 17.3448 milliseconds in repetition 145
+tcp_ping received 98304 bytes back
+Round trip time was 17.4775 milliseconds in repetition 146
+tcp_ping received 98304 bytes back
+Round trip time was 18.8946 milliseconds in repetition 147
+tcp_ping received 98304 bytes back
+Round trip time was 17.4382 milliseconds in repetition 148
+tcp_ping received 98304 bytes back
+Round trip time was 17.2698 milliseconds in repetition 149
+tcp_ping received 98304 bytes back
+Round trip time was 17.3582 milliseconds in repetition 150
+tcp_ping received 98304 bytes back
+Round trip time was 17.5198 milliseconds in repetition 151
+tcp_ping received 98304 bytes back
+Round trip time was 17.3838 milliseconds in repetition 152
+tcp_ping received 98304 bytes back
+Round trip time was 17.5164 milliseconds in repetition 153
+tcp_ping received 98304 bytes back
+Round trip time was 17.4721 milliseconds in repetition 154
+tcp_ping received 98304 bytes back
+Round trip time was 17.4648 milliseconds in repetition 155
+tcp_ping received 98304 bytes back
+Round trip time was 17.5085 milliseconds in repetition 156
+tcp_ping received 98304 bytes back
+Round trip time was 17.3973 milliseconds in repetition 157
+tcp_ping received 98304 bytes back
+Round trip time was 17.2941 milliseconds in repetition 158
+tcp_ping received 98304 bytes back
+Round trip time was 17.5686 milliseconds in repetition 159
+tcp_ping received 98304 bytes back
+Round trip time was 17.3628 milliseconds in repetition 160
+tcp_ping received 98304 bytes back
+Round trip time was 17.4855 milliseconds in repetition 161
+tcp_ping received 98304 bytes back
+Round trip time was 17.4581 milliseconds in repetition 162
+tcp_ping received 98304 bytes back
+Round trip time was 17.5317 milliseconds in repetition 163
+tcp_ping received 98304 bytes back
+Round trip time was 17.4095 milliseconds in repetition 164
+tcp_ping received 98304 bytes back
+Round trip time was 17.4702 milliseconds in repetition 165
+tcp_ping received 98304 bytes back
+Round trip time was 17.3692 milliseconds in repetition 166
+tcp_ping received 98304 bytes back
+Round trip time was 17.5442 milliseconds in repetition 167
+tcp_ping received 98304 bytes back
+Round trip time was 17.2951 milliseconds in repetition 168
+tcp_ping received 98304 bytes back
+Round trip time was 17.3846 milliseconds in repetition 169
+tcp_ping received 98304 bytes back
+Round trip time was 17.4505 milliseconds in repetition 170
+tcp_ping received 98304 bytes back
+Round trip time was 17.521 milliseconds in repetition 171
+tcp_ping received 98304 bytes back
+Round trip time was 17.4942 milliseconds in repetition 172
+tcp_ping received 98304 bytes back
+Round trip time was 17.5342 milliseconds in repetition 173
+tcp_ping received 98304 bytes back
+Round trip time was 17.4585 milliseconds in repetition 174
+tcp_ping received 98304 bytes back
+Round trip time was 17.3392 milliseconds in repetition 175
+tcp_ping received 98304 bytes back
+Round trip time was 17.4975 milliseconds in repetition 176
+tcp_ping received 98304 bytes back
+Round trip time was 17.5521 milliseconds in repetition 177
+tcp_ping received 98304 bytes back
+Round trip time was 17.3227 milliseconds in repetition 178
+tcp_ping received 98304 bytes back
+Round trip time was 17.4624 milliseconds in repetition 179
+tcp_ping received 98304 bytes back
+Round trip time was 17.5394 milliseconds in repetition 180
+tcp_ping received 98304 bytes back
+Round trip time was 17.5266 milliseconds in repetition 181
+tcp_ping received 98304 bytes back
+Round trip time was 17.4571 milliseconds in repetition 182
+tcp_ping received 98304 bytes back
+Round trip time was 17.4208 milliseconds in repetition 183
+tcp_ping received 98304 bytes back
+Round trip time was 17.6319 milliseconds in repetition 184
+tcp_ping received 98304 bytes back
+Round trip time was 17.4403 milliseconds in repetition 185
+tcp_ping received 98304 bytes back
+Round trip time was 17.4698 milliseconds in repetition 186
+tcp_ping received 98304 bytes back
+Round trip time was 17.464 milliseconds in repetition 187
+tcp_ping received 98304 bytes back
+Round trip time was 17.4682 milliseconds in repetition 188
+tcp_ping received 98304 bytes back
+Round trip time was 17.519 milliseconds in repetition 189
+tcp_ping received 98304 bytes back
+Round trip time was 17.3335 milliseconds in repetition 190
+tcp_ping received 98304 bytes back
+Round trip time was 17.5026 milliseconds in repetition 191
+tcp_ping received 98304 bytes back
+Round trip time was 17.4909 milliseconds in repetition 192
+tcp_ping received 98304 bytes back
+Round trip time was 17.4229 milliseconds in repetition 193
+tcp_ping received 98304 bytes back
+Round trip time was 17.3139 milliseconds in repetition 194
+tcp_ping received 98304 bytes back
+Round trip time was 17.4713 milliseconds in repetition 195
+tcp_ping received 98304 bytes back
+Round trip time was 17.4078 milliseconds in repetition 196
+tcp_ping received 98304 bytes back
+Round trip time was 17.4776 milliseconds in repetition 197
+tcp_ping received 98304 bytes back
+Round trip time was 17.3798 milliseconds in repetition 198
+tcp_ping received 98304 bytes back
+Round trip time was 17.4866 milliseconds in repetition 199
+tcp_ping received 98304 bytes back
+Round trip time was 17.4472 milliseconds in repetition 200
+tcp_ping received 98304 bytes back
+Round trip time was 17.4321 milliseconds in repetition 201
+tcp_ping received 98304 bytes back
+Round trip time was 17.5285 milliseconds in repetition 202
+tcp_ping received 98304 bytes back
+Round trip time was 17.3888 milliseconds in repetition 203
+tcp_ping received 98304 bytes back
+Round trip time was 17.5228 milliseconds in repetition 204
+tcp_ping received 98304 bytes back
+Round trip time was 17.5069 milliseconds in repetition 205
+tcp_ping received 98304 bytes back
+Round trip time was 17.5433 milliseconds in repetition 206
+tcp_ping received 98304 bytes back
+Round trip time was 17.2873 milliseconds in repetition 207
+tcp_ping received 98304 bytes back
+Round trip time was 17.5742 milliseconds in repetition 208
+tcp_ping received 98304 bytes back
+Round trip time was 17.4216 milliseconds in repetition 209
+tcp_ping received 98304 bytes back
+Round trip time was 17.4932 milliseconds in repetition 210
+tcp_ping received 98304 bytes back
+Round trip time was 17.3746 milliseconds in repetition 211
+tcp_ping received 98304 bytes back
+Round trip time was 17.5727 milliseconds in repetition 212
+tcp_ping received 98304 bytes back
+Round trip time was 17.432 milliseconds in repetition 213
+tcp_ping received 98304 bytes back
+Round trip time was 17.4414 milliseconds in repetition 214
+tcp_ping received 98304 bytes back
+Round trip time was 17.3618 milliseconds in repetition 215
+tcp_ping received 98304 bytes back
+Round trip time was 17.4226 milliseconds in repetition 216
+tcp_ping received 98304 bytes back
+Round trip time was 17.2858 milliseconds in repetition 217
+tcp_ping received 98304 bytes back
+Round trip time was 17.4654 milliseconds in repetition 218
+tcp_ping received 98304 bytes back
+Round trip time was 17.5912 milliseconds in repetition 219
+tcp_ping received 98304 bytes back
+Round trip time was 17.5376 milliseconds in repetition 220
+tcp_ping received 98304 bytes back
+Round trip time was 17.4297 milliseconds in repetition 221
+tcp_ping received 98304 bytes back
+Round trip time was 17.4973 milliseconds in repetition 222
+tcp_ping received 98304 bytes back
+Round trip time was 17.4614 milliseconds in repetition 223
+tcp_ping received 98304 bytes back
+Round trip time was 17.3349 milliseconds in repetition 224
+tcp_ping received 98304 bytes back
+Round trip time was 17.6056 milliseconds in repetition 225
+tcp_ping received 98304 bytes back
+Round trip time was 17.4175 milliseconds in repetition 226
+tcp_ping received 98304 bytes back
+Round trip time was 19.6368 milliseconds in repetition 227
+tcp_ping received 98304 bytes back
+Round trip time was 17.7904 milliseconds in repetition 228
+tcp_ping received 98304 bytes back
+Round trip time was 17.7232 milliseconds in repetition 229
+tcp_ping received 98304 bytes back
+Round trip time was 17.543 milliseconds in repetition 230
+tcp_ping received 98304 bytes back
+Round trip time was 17.5918 milliseconds in repetition 231
+tcp_ping received 98304 bytes back
+Round trip time was 17.451 milliseconds in repetition 232
+tcp_ping received 98304 bytes back
+Round trip time was 17.4769 milliseconds in repetition 233
+tcp_ping received 98304 bytes back
+Round trip time was 17.4074 milliseconds in repetition 234
+tcp_ping received 98304 bytes back
+Round trip time was 17.5498 milliseconds in repetition 235
+tcp_ping received 98304 bytes back
+Round trip time was 17.4254 milliseconds in repetition 236
+tcp_ping received 98304 bytes back
+Round trip time was 17.4406 milliseconds in repetition 237
+tcp_ping received 98304 bytes back
+Round trip time was 17.4371 milliseconds in repetition 238
+tcp_ping received 98304 bytes back
+Round trip time was 17.5034 milliseconds in repetition 239
+tcp_ping received 98304 bytes back
+Round trip time was 17.4206 milliseconds in repetition 240
+tcp_ping received 98304 bytes back
+Round trip time was 17.2813 milliseconds in repetition 241
+tcp_ping received 98304 bytes back
+Round trip time was 17.4415 milliseconds in repetition 242
+tcp_ping received 98304 bytes back
+Round trip time was 17.3925 milliseconds in repetition 243
+tcp_ping received 98304 bytes back
+Round trip time was 17.4442 milliseconds in repetition 244
+tcp_ping received 98304 bytes back
+Round trip time was 17.4544 milliseconds in repetition 245
+tcp_ping received 98304 bytes back
+Round trip time was 17.3956 milliseconds in repetition 246
+tcp_ping received 98304 bytes back
+Round trip time was 17.3187 milliseconds in repetition 247
+tcp_ping received 98304 bytes back
+Round trip time was 17.4147 milliseconds in repetition 248
+tcp_ping received 98304 bytes back
+Round trip time was 17.523 milliseconds in repetition 249
+tcp_ping received 98304 bytes back
+Round trip time was 17.5262 milliseconds in repetition 250
+tcp_ping received 98304 bytes back
+Round trip time was 17.504 milliseconds in repetition 251
+tcp_ping received 98304 bytes back
+Round trip time was 17.4859 milliseconds in repetition 252
+tcp_ping received 98304 bytes back
+Round trip time was 17.3865 milliseconds in repetition 253
+tcp_ping received 98304 bytes back
+Round trip time was 17.4617 milliseconds in repetition 254
+tcp_ping received 98304 bytes back
+Round trip time was 17.4664 milliseconds in repetition 255
+tcp_ping received 98304 bytes back
+Round trip time was 17.5656 milliseconds in repetition 256
+tcp_ping received 98304 bytes back
+Round trip time was 17.3987 milliseconds in repetition 257
+tcp_ping received 98304 bytes back
+Round trip time was 17.3492 milliseconds in repetition 258
+tcp_ping received 98304 bytes back
+Round trip time was 17.4998 milliseconds in repetition 259
+tcp_ping received 98304 bytes back
+Round trip time was 17.3032 milliseconds in repetition 260
+tcp_ping received 98304 bytes back
+Round trip time was 17.4775 milliseconds in repetition 261
+tcp_ping received 98304 bytes back
+Round trip time was 17.3901 milliseconds in repetition 262
+tcp_ping received 98304 bytes back
+Round trip time was 17.4159 milliseconds in repetition 263
+tcp_ping received 98304 bytes back
+Round trip time was 17.3347 milliseconds in repetition 264
+tcp_ping received 98304 bytes back
+Round trip time was 17.4426 milliseconds in repetition 265
+tcp_ping received 98304 bytes back
+Round trip time was 27.2089 milliseconds in repetition 266
+tcp_ping received 98304 bytes back
+Round trip time was 17.5488 milliseconds in repetition 267
+tcp_ping received 98304 bytes back
+Round trip time was 19.6254 milliseconds in repetition 268
+tcp_ping received 98304 bytes back
+Round trip time was 17.4057 milliseconds in repetition 269
+tcp_ping received 98304 bytes back
+Round trip time was 17.6781 milliseconds in repetition 270
+tcp_ping received 98304 bytes back
+Round trip time was 17.6102 milliseconds in repetition 271
+tcp_ping received 98304 bytes back
+Round trip time was 17.5892 milliseconds in repetition 272
+tcp_ping received 98304 bytes back
+Round trip time was 17.5074 milliseconds in repetition 273
+tcp_ping received 98304 bytes back
+Round trip time was 17.7119 milliseconds in repetition 274
+tcp_ping received 98304 bytes back
+Round trip time was 17.5198 milliseconds in repetition 275
+tcp_ping received 98304 bytes back
+Round trip time was 17.6017 milliseconds in repetition 276
+tcp_ping received 98304 bytes back
+Round trip time was 17.4755 milliseconds in repetition 277
+tcp_ping received 98304 bytes back
+Round trip time was 17.7066 milliseconds in repetition 278
+tcp_ping received 98304 bytes back
+Round trip time was 17.5933 milliseconds in repetition 279
+tcp_ping received 98304 bytes back
+Round trip time was 17.6031 milliseconds in repetition 280
+tcp_ping received 98304 bytes back
+Round trip time was 17.5588 milliseconds in repetition 281
+tcp_ping received 98304 bytes back
+Round trip time was 17.5332 milliseconds in repetition 282
+tcp_ping received 98304 bytes back
+Round trip time was 17.5428 milliseconds in repetition 283
+tcp_ping received 98304 bytes back
+Round trip time was 17.591 milliseconds in repetition 284
+tcp_ping received 98304 bytes back
+Round trip time was 17.6678 milliseconds in repetition 285
+tcp_ping received 98304 bytes back
+Round trip time was 17.6332 milliseconds in repetition 286
+tcp_ping received 98304 bytes back
+Round trip time was 17.5221 milliseconds in repetition 287
+tcp_ping received 98304 bytes back
+Round trip time was 17.4576 milliseconds in repetition 288
+tcp_ping received 98304 bytes back
+Round trip time was 17.4667 milliseconds in repetition 289
+tcp_ping received 98304 bytes back
+Round trip time was 17.371 milliseconds in repetition 290
+tcp_ping received 98304 bytes back
+Round trip time was 17.3983 milliseconds in repetition 291
+tcp_ping received 98304 bytes back
+Round trip time was 17.5917 milliseconds in repetition 292
+tcp_ping received 98304 bytes back
+Round trip time was 17.5795 milliseconds in repetition 293
+tcp_ping received 98304 bytes back
+Round trip time was 17.2528 milliseconds in repetition 294
+tcp_ping received 98304 bytes back
+Round trip time was 17.5411 milliseconds in repetition 295
+tcp_ping received 98304 bytes back
+Round trip time was 17.4625 milliseconds in repetition 296
+tcp_ping received 98304 bytes back
+Round trip time was 17.3883 milliseconds in repetition 297
+tcp_ping received 98304 bytes back
+Round trip time was 17.5023 milliseconds in repetition 298
+tcp_ping received 98304 bytes back
+Round trip time was 17.4317 milliseconds in repetition 299
+tcp_ping received 98304 bytes back
+Round trip time was 17.5315 milliseconds in repetition 300
+tcp_ping received 98304 bytes back
+Round trip time was 17.4856 milliseconds in repetition 301
+tcp_ping received 98304 bytes back
+Round trip time was 17.5831 milliseconds in repetition 302
+tcp_ping received 98304 bytes back
+Round trip time was 17.4169 milliseconds in repetition 303
+tcp_ping received 98304 bytes back
+Round trip time was 17.493 milliseconds in repetition 304
+tcp_ping received 98304 bytes back
+Round trip time was 17.5702 milliseconds in repetition 305
+tcp_ping received 98304 bytes back
+Round trip time was 17.5019 milliseconds in repetition 306
+tcp_ping received 98304 bytes back
+Round trip time was 17.3452 milliseconds in repetition 307
+tcp_ping received 98304 bytes back
+Round trip time was 17.4669 milliseconds in repetition 308
+tcp_ping received 98304 bytes back
+Round trip time was 17.5863 milliseconds in repetition 309
+tcp_ping received 98304 bytes back
+Round trip time was 17.4614 milliseconds in repetition 310
+tcp_ping received 98304 bytes back
+Round trip time was 17.4577 milliseconds in repetition 311
+tcp_ping received 98304 bytes back
+Round trip time was 17.3746 milliseconds in repetition 312
+tcp_ping received 98304 bytes back
+Round trip time was 17.5235 milliseconds in repetition 313
+tcp_ping received 98304 bytes back
+Round trip time was 17.4725 milliseconds in repetition 314
+tcp_ping received 98304 bytes back
+Round trip time was 17.5564 milliseconds in repetition 315
+tcp_ping received 98304 bytes back
+Round trip time was 17.525 milliseconds in repetition 316
+tcp_ping received 98304 bytes back
+Round trip time was 17.3632 milliseconds in repetition 317
+tcp_ping received 98304 bytes back
+Round trip time was 17.3796 milliseconds in repetition 318
+tcp_ping received 98304 bytes back
+Round trip time was 17.3581 milliseconds in repetition 319
+tcp_ping received 98304 bytes back
+Round trip time was 17.4017 milliseconds in repetition 320
+tcp_ping received 98304 bytes back
+Round trip time was 17.3663 milliseconds in repetition 321
+tcp_ping received 98304 bytes back
+Round trip time was 17.3886 milliseconds in repetition 322
+tcp_ping received 98304 bytes back
+Round trip time was 17.452 milliseconds in repetition 323
+tcp_ping received 98304 bytes back
+Round trip time was 17.3075 milliseconds in repetition 324
+tcp_ping received 98304 bytes back
+Round trip time was 17.4189 milliseconds in repetition 325
+tcp_ping received 98304 bytes back
+Round trip time was 17.4695 milliseconds in repetition 326
+tcp_ping received 98304 bytes back
+Round trip time was 17.3361 milliseconds in repetition 327
+tcp_ping received 98304 bytes back
+Round trip time was 17.3621 milliseconds in repetition 328
+tcp_ping received 98304 bytes back
+Round trip time was 17.3349 milliseconds in repetition 329
+tcp_ping received 98304 bytes back
+Round trip time was 17.3956 milliseconds in repetition 330
+tcp_ping received 98304 bytes back
+Round trip time was 17.484 milliseconds in repetition 331
+tcp_ping received 98304 bytes back
+Round trip time was 17.4272 milliseconds in repetition 332
+tcp_ping received 98304 bytes back
+Round trip time was 17.3991 milliseconds in repetition 333
+tcp_ping received 98304 bytes back
+Round trip time was 17.4972 milliseconds in repetition 334
+tcp_ping received 98304 bytes back
+Round trip time was 17.3909 milliseconds in repetition 335
+tcp_ping received 98304 bytes back
+Round trip time was 17.3827 milliseconds in repetition 336
+tcp_ping received 98304 bytes back
+Round trip time was 17.374 milliseconds in repetition 337
+tcp_ping received 98304 bytes back
+Round trip time was 17.3719 milliseconds in repetition 338
+tcp_ping received 98304 bytes back
+Round trip time was 17.5035 milliseconds in repetition 339
+tcp_ping received 98304 bytes back
+Round trip time was 17.3652 milliseconds in repetition 340
+tcp_ping received 98304 bytes back
+Round trip time was 17.4584 milliseconds in repetition 341
+tcp_ping received 98304 bytes back
+Round trip time was 17.4846 milliseconds in repetition 342
+tcp_ping received 98304 bytes back
+Round trip time was 17.4747 milliseconds in repetition 343
+tcp_ping received 98304 bytes back
+Round trip time was 17.4529 milliseconds in repetition 344
+tcp_ping received 98304 bytes back
+Round trip time was 17.4369 milliseconds in repetition 345
+tcp_ping received 98304 bytes back
+Round trip time was 17.2838 milliseconds in repetition 346
+tcp_ping received 98304 bytes back
+Round trip time was 17.6316 milliseconds in repetition 347
+tcp_ping received 98304 bytes back
+Round trip time was 17.5177 milliseconds in repetition 348
+tcp_ping received 98304 bytes back
+Round trip time was 17.4358 milliseconds in repetition 349
+tcp_ping received 98304 bytes back
+Round trip time was 17.5025 milliseconds in repetition 350
+tcp_ping received 98304 bytes back
+Round trip time was 17.4018 milliseconds in repetition 351
+tcp_ping received 98304 bytes back
+Round trip time was 17.6109 milliseconds in repetition 352
+tcp_ping received 98304 bytes back
+Round trip time was 17.4646 milliseconds in repetition 353
+tcp_ping received 98304 bytes back
+Round trip time was 17.4013 milliseconds in repetition 354
+tcp_ping received 98304 bytes back
+Round trip time was 17.5399 milliseconds in repetition 355
+tcp_ping received 98304 bytes back
+Round trip time was 17.4876 milliseconds in repetition 356
+tcp_ping received 98304 bytes back
+Round trip time was 17.3923 milliseconds in repetition 357
+tcp_ping received 98304 bytes back
+Round trip time was 17.4867 milliseconds in repetition 358
+tcp_ping received 98304 bytes back
+Round trip time was 17.3194 milliseconds in repetition 359
+tcp_ping received 98304 bytes back
+Round trip time was 17.5395 milliseconds in repetition 360
+tcp_ping received 98304 bytes back
+Round trip time was 17.5122 milliseconds in repetition 361
+tcp_ping received 98304 bytes back
+Round trip time was 17.5277 milliseconds in repetition 362
+tcp_ping received 98304 bytes back
+Round trip time was 17.4181 milliseconds in repetition 363
+tcp_ping received 98304 bytes back
+Round trip time was 17.4972 milliseconds in repetition 364
+tcp_ping received 98304 bytes back
+Round trip time was 17.4337 milliseconds in repetition 365
+tcp_ping received 98304 bytes back
+Round trip time was 17.5492 milliseconds in repetition 366
+tcp_ping received 98304 bytes back
+Round trip time was 17.3803 milliseconds in repetition 367
+tcp_ping received 98304 bytes back
+Round trip time was 17.3916 milliseconds in repetition 368
+tcp_ping received 98304 bytes back
+Round trip time was 17.4709 milliseconds in repetition 369
+tcp_ping received 98304 bytes back
+Round trip time was 17.4078 milliseconds in repetition 370
+tcp_ping received 98304 bytes back
+Round trip time was 17.4555 milliseconds in repetition 371
+tcp_ping received 98304 bytes back
+Round trip time was 17.3634 milliseconds in repetition 372
+tcp_ping received 98304 bytes back
+Round trip time was 17.3619 milliseconds in repetition 373
+tcp_ping received 98304 bytes back
+Round trip time was 17.27 milliseconds in repetition 374
+tcp_ping received 98304 bytes back
+Round trip time was 17.3729 milliseconds in repetition 375
+tcp_ping received 98304 bytes back
+Round trip time was 17.5714 milliseconds in repetition 376
+tcp_ping received 98304 bytes back
+Round trip time was 17.5589 milliseconds in repetition 377
+tcp_ping received 98304 bytes back
+Round trip time was 17.4492 milliseconds in repetition 378
+tcp_ping received 98304 bytes back
+Round trip time was 17.45 milliseconds in repetition 379
+tcp_ping received 98304 bytes back
+Round trip time was 17.5231 milliseconds in repetition 380
+tcp_ping received 98304 bytes back
+Round trip time was 17.4312 milliseconds in repetition 381
+tcp_ping received 98304 bytes back
+Round trip time was 17.4355 milliseconds in repetition 382
+tcp_ping received 98304 bytes back
+Round trip time was 17.498 milliseconds in repetition 383
+tcp_ping received 98304 bytes back
+Round trip time was 17.5515 milliseconds in repetition 384
+tcp_ping received 98304 bytes back
+Round trip time was 17.4736 milliseconds in repetition 385
+tcp_ping received 98304 bytes back
+Round trip time was 17.326 milliseconds in repetition 386
+tcp_ping received 98304 bytes back
+Round trip time was 17.3648 milliseconds in repetition 387
+tcp_ping received 98304 bytes back
+Round trip time was 17.4757 milliseconds in repetition 388
+tcp_ping received 98304 bytes back
+Round trip time was 17.5096 milliseconds in repetition 389
+tcp_ping received 98304 bytes back
+Round trip time was 17.4693 milliseconds in repetition 390
+tcp_ping received 98304 bytes back
+Round trip time was 17.4339 milliseconds in repetition 391
+tcp_ping received 98304 bytes back
+Round trip time was 17.4184 milliseconds in repetition 392
+tcp_ping received 98304 bytes back
+Round trip time was 17.5569 milliseconds in repetition 393
+tcp_ping received 98304 bytes back
+Round trip time was 17.4923 milliseconds in repetition 394
+tcp_ping received 98304 bytes back
+Round trip time was 17.2893 milliseconds in repetition 395
+tcp_ping received 98304 bytes back
+Round trip time was 17.6441 milliseconds in repetition 396
+tcp_ping received 98304 bytes back
+Round trip time was 17.4341 milliseconds in repetition 397
+tcp_ping received 98304 bytes back
+Round trip time was 17.2558 milliseconds in repetition 398
+tcp_ping received 98304 bytes back
+Round trip time was 17.4812 milliseconds in repetition 399
+tcp_ping received 98304 bytes back
+Round trip time was 17.293 milliseconds in repetition 400
+tcp_ping received 98304 bytes back
+Round trip time was 17.445 milliseconds in repetition 401
+tcp_ping received 98304 bytes back
+Round trip time was 17.4144 milliseconds in repetition 402
+tcp_ping received 98304 bytes back
+Round trip time was 17.6707 milliseconds in repetition 403
+tcp_ping received 98304 bytes back
+Round trip time was 17.4379 milliseconds in repetition 404
+tcp_ping received 98304 bytes back
+Round trip time was 17.3697 milliseconds in repetition 405
+tcp_ping received 98304 bytes back
+Round trip time was 17.4934 milliseconds in repetition 406
+tcp_ping received 98304 bytes back
+Round trip time was 17.4681 milliseconds in repetition 407
+tcp_ping received 98304 bytes back
+Round trip time was 17.3764 milliseconds in repetition 408
+tcp_ping received 98304 bytes back
+Round trip time was 17.473 milliseconds in repetition 409
+tcp_ping received 98304 bytes back
+Round trip time was 17.517 milliseconds in repetition 410
+tcp_ping received 98304 bytes back
+Round trip time was 17.6391 milliseconds in repetition 411
+tcp_ping received 98304 bytes back
+Round trip time was 17.4067 milliseconds in repetition 412
+tcp_ping received 98304 bytes back
+Round trip time was 17.4675 milliseconds in repetition 413
+tcp_ping received 98304 bytes back
+Round trip time was 17.5256 milliseconds in repetition 414
+tcp_ping received 98304 bytes back
+Round trip time was 17.4339 milliseconds in repetition 415
+tcp_ping received 98304 bytes back
+Round trip time was 17.4632 milliseconds in repetition 416
+tcp_ping received 98304 bytes back
+Round trip time was 17.3819 milliseconds in repetition 417
+tcp_ping received 98304 bytes back
+Round trip time was 17.3954 milliseconds in repetition 418
+tcp_ping received 98304 bytes back
+Round trip time was 17.5561 milliseconds in repetition 419
+tcp_ping received 98304 bytes back
+Round trip time was 17.5641 milliseconds in repetition 420
+tcp_ping received 98304 bytes back
+Round trip time was 17.4086 milliseconds in repetition 421
+tcp_ping received 98304 bytes back
+Round trip time was 17.4111 milliseconds in repetition 422
+tcp_ping received 98304 bytes back
+Round trip time was 17.3646 milliseconds in repetition 423
+tcp_ping received 98304 bytes back
+Round trip time was 17.4296 milliseconds in repetition 424
+tcp_ping received 98304 bytes back
+Round trip time was 17.4162 milliseconds in repetition 425
+tcp_ping received 98304 bytes back
+Round trip time was 17.4117 milliseconds in repetition 426
+tcp_ping received 98304 bytes back
+Round trip time was 17.4138 milliseconds in repetition 427
+tcp_ping received 98304 bytes back
+Round trip time was 17.3571 milliseconds in repetition 428
+tcp_ping received 98304 bytes back
+Round trip time was 17.4776 milliseconds in repetition 429
+tcp_ping received 98304 bytes back
+Round trip time was 17.3883 milliseconds in repetition 430
+tcp_ping received 98304 bytes back
+Round trip time was 17.4951 milliseconds in repetition 431
+tcp_ping received 98304 bytes back
+Round trip time was 19.2927 milliseconds in repetition 432
+tcp_ping received 98304 bytes back
+Round trip time was 17.7112 milliseconds in repetition 433
+tcp_ping received 98304 bytes back
+Round trip time was 17.4271 milliseconds in repetition 434
+tcp_ping received 98304 bytes back
+Round trip time was 17.5028 milliseconds in repetition 435
+tcp_ping received 98304 bytes back
+Round trip time was 17.3903 milliseconds in repetition 436
+tcp_ping received 98304 bytes back
+Round trip time was 17.4345 milliseconds in repetition 437
+tcp_ping received 98304 bytes back
+Round trip time was 17.4064 milliseconds in repetition 438
+tcp_ping received 98304 bytes back
+Round trip time was 17.4853 milliseconds in repetition 439
+tcp_ping received 98304 bytes back
+Round trip time was 17.4759 milliseconds in repetition 440
+tcp_ping received 98304 bytes back
+Round trip time was 22.5977 milliseconds in repetition 441
+tcp_ping received 98304 bytes back
+Round trip time was 17.6329 milliseconds in repetition 442
+tcp_ping received 98304 bytes back
+Round trip time was 17.5655 milliseconds in repetition 443
+tcp_ping received 98304 bytes back
+Round trip time was 17.6233 milliseconds in repetition 444
+tcp_ping received 98304 bytes back
+Round trip time was 17.4385 milliseconds in repetition 445
+tcp_ping received 98304 bytes back
+Round trip time was 17.5326 milliseconds in repetition 446
+tcp_ping received 98304 bytes back
+Round trip time was 17.561 milliseconds in repetition 447
+tcp_ping received 98304 bytes back
+Round trip time was 17.4653 milliseconds in repetition 448
+tcp_ping received 98304 bytes back
+Round trip time was 17.5293 milliseconds in repetition 449
+tcp_ping received 98304 bytes back
+Round trip time was 17.5035 milliseconds in repetition 450
+tcp_ping received 98304 bytes back
+Round trip time was 17.5354 milliseconds in repetition 451
+tcp_ping received 98304 bytes back
+Round trip time was 17.6739 milliseconds in repetition 452
+tcp_ping received 98304 bytes back
+Round trip time was 17.5301 milliseconds in repetition 453
+tcp_ping received 98304 bytes back
+Round trip time was 17.6247 milliseconds in repetition 454
+tcp_ping received 98304 bytes back
+Round trip time was 17.4134 milliseconds in repetition 455
+tcp_ping received 98304 bytes back
+Round trip time was 17.4877 milliseconds in repetition 456
+tcp_ping received 98304 bytes back
+Round trip time was 17.4883 milliseconds in repetition 457
+tcp_ping received 98304 bytes back
+Round trip time was 17.677 milliseconds in repetition 458
+tcp_ping received 98304 bytes back
+Round trip time was 17.6024 milliseconds in repetition 459
+tcp_ping received 98304 bytes back
+Round trip time was 17.4252 milliseconds in repetition 460
+tcp_ping received 98304 bytes back
+Round trip time was 17.6027 milliseconds in repetition 461
+tcp_ping received 98304 bytes back
+Round trip time was 17.5125 milliseconds in repetition 462
+tcp_ping received 98304 bytes back
+Round trip time was 17.5651 milliseconds in repetition 463
+tcp_ping received 98304 bytes back
+Round trip time was 17.502 milliseconds in repetition 464
+tcp_ping received 98304 bytes back
+Round trip time was 17.5366 milliseconds in repetition 465
+tcp_ping received 98304 bytes back
+Round trip time was 17.6363 milliseconds in repetition 466
+tcp_ping received 98304 bytes back
+Round trip time was 17.4737 milliseconds in repetition 467
+tcp_ping received 98304 bytes back
+Round trip time was 17.5547 milliseconds in repetition 468
+tcp_ping received 98304 bytes back
+Round trip time was 17.4066 milliseconds in repetition 469
+tcp_ping received 98304 bytes back
+Round trip time was 17.6371 milliseconds in repetition 470
+tcp_ping received 98304 bytes back
+Round trip time was 17.5504 milliseconds in repetition 471
+tcp_ping received 98304 bytes back
+Round trip time was 17.6502 milliseconds in repetition 472
+tcp_ping received 98304 bytes back
+Round trip time was 17.6429 milliseconds in repetition 473
+tcp_ping received 98304 bytes back
+Round trip time was 17.677 milliseconds in repetition 474
+tcp_ping received 98304 bytes back
+Round trip time was 17.5985 milliseconds in repetition 475
+tcp_ping received 98304 bytes back
+Round trip time was 17.6442 milliseconds in repetition 476
+tcp_ping received 98304 bytes back
+Round trip time was 17.6852 milliseconds in repetition 477
+tcp_ping received 98304 bytes back
+Round trip time was 17.5574 milliseconds in repetition 478
+tcp_ping received 98304 bytes back
+Round trip time was 17.4163 milliseconds in repetition 479
+tcp_ping received 98304 bytes back
+Round trip time was 17.5667 milliseconds in repetition 480
+tcp_ping received 98304 bytes back
+Round trip time was 17.3738 milliseconds in repetition 481
+tcp_ping received 98304 bytes back
+Round trip time was 17.4406 milliseconds in repetition 482
+tcp_ping received 98304 bytes back
+Round trip time was 17.6991 milliseconds in repetition 483
+tcp_ping received 98304 bytes back
+Round trip time was 17.5009 milliseconds in repetition 484
+tcp_ping received 98304 bytes back
+Round trip time was 17.6346 milliseconds in repetition 485
+tcp_ping received 98304 bytes back
+Round trip time was 17.5555 milliseconds in repetition 486
+tcp_ping received 98304 bytes back
+Round trip time was 17.6032 milliseconds in repetition 487
+tcp_ping received 98304 bytes back
+Round trip time was 17.5478 milliseconds in repetition 488
+tcp_ping received 98304 bytes back
+Round trip time was 17.7012 milliseconds in repetition 489
+tcp_ping received 98304 bytes back
+Round trip time was 17.6811 milliseconds in repetition 490
+tcp_ping received 98304 bytes back
+Round trip time was 17.5533 milliseconds in repetition 491
+tcp_ping received 98304 bytes back
+Round trip time was 17.5447 milliseconds in repetition 492
+tcp_ping received 98304 bytes back
+Round trip time was 17.6304 milliseconds in repetition 493
+tcp_ping received 98304 bytes back
+Round trip time was 17.4019 milliseconds in repetition 494
+tcp_ping received 98304 bytes back
+Round trip time was 17.604 milliseconds in repetition 495
+tcp_ping received 98304 bytes back
+Round trip time was 17.5961 milliseconds in repetition 496
+tcp_ping received 98304 bytes back
+Round trip time was 17.5592 milliseconds in repetition 497
+tcp_ping received 98304 bytes back
+Round trip time was 17.6224 milliseconds in repetition 498
+tcp_ping received 98304 bytes back
+Round trip time was 17.6645 milliseconds in repetition 499
+tcp_ping received 98304 bytes back
+Round trip time was 17.4924 milliseconds in repetition 500
+tcp_ping received 98304 bytes back
+Round trip time was 17.6854 milliseconds in repetition 501
+
+ ... clock resolution was 1e-06
+TCP Ping:  Statistics over 501 repetitions of 98304 byte messages
+
+RTT : percentile 10: 17.3621, median: 17.4803, percentile 90: 17.6363, average: 17.5533, variance: 0.366801
+
+RTT histogram:
+   overall Throughput : 11200.6 KB/s
+
