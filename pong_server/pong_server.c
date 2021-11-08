@@ -306,7 +306,7 @@ void server_loop(int server_socket) {
      establised fork() and have the child process call serve_client() ***/
 /*** TO BE DONE START ***/
 
-		if(request_socket<0){
+		if(request_socket==-1){
 			if(errno == EINTR) continue;
 			close(request_socket);
 			fail_errno("Server could not accept connection");
